@@ -39,15 +39,15 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
 - [ ] Mention two parts of Express that you learned about this week.
-
+Routing and middleware
 - [ ] Describe Middleware?
-
+Middlewares are functions that work in between server and client and is used to carry information from one to another. It is a layer of software that lies  between the operating system and applications.
 - [ ] Describe a Resource?
-
+The GET, POST, PUT, DELETE methods is a resource. Resource can be defined as an object with a type, associated data and a set of method that operate on it. The fundamental concept in a restful API is a resource.
 - [ ] What can the API return to help clients know if a request was successful?
-
+200 code
 - [ ] How can we partition our application into sub-applications?
-
+express router
 ## Minimum Viable Product
 
 - [ ] Configure an _npm script_ named _"server"_ that will execute your code using _nodemon_. Make _nodemon_ be a development time dependency only, it shouldn't be deployed to production.
